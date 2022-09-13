@@ -90,7 +90,7 @@ header-includes:
 #### FFCx
 
 {% for version in ffcx_versions %}
-`0.4.1`: [https://docs.fenicsproject.org/ffcx/{{version}}](ffcx/{{version}})
+`{{version}}`: [https://docs.fenicsproject.org/ffcx/{{version}}](ffcx/{{version}})
 {% endfor %}
 
 #### Basix
